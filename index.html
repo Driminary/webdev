@@ -1,122 +1,249 @@
-<!DOCTYPE HTML>
-<!--
-	Alpha by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Welcome to Thomas-Anderson.net</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/jquery.scrollgress.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body class="landing">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tom Anderson's personal website.">
+    <meta name="author" content="Thomas Anderson">
+    <link rel="shortcut icon" href="favicon.ico">
 
-		<!-- Header -->
-			<header id="header" class="alt">
-				<h1><a href="index.html">Thomas Anderson</a> - Physics (MPhys) Undergraduate</h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li>
-							<a href="" class="icon fa-angle-down">Work</a>
-							<ul>
-								<li>
-									<a href="">Python</a>
-									<ul>
-										<li><a href="#">Option One</a></li>
-										<li><a href="#">Option Two</a></li>
-										<li><a href="#">Option Three</a></li>
-										<li><a href="#">Option Four</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li><a href="contact.html" class="button">Contact</a></li>
-					</ul>
-				</nav>
-			</header>
+    <title>Tom Anderson</title>
 
-		<!-- Banner -->
-			<section id="banner">
-				<h2>Welcome!</h2>
-				<ul class="actions">
-					<li><a href="contact.html" class="button special icon fa-envelope-o">Contact Me</a></li>
-					<li><a href="http://uk.linkedin.com/in/t0manderson" target="_blank" class="button special icon fa-linkedin-square">LinkedIn Profile</a></li>
-				</ul>
-			</section>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-		<!-- Main -->
-			<section id="main" class="container">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
 
-				<section class="box special">
-					<header class="major">
-						<span class="image left"><img src="images/tom_anderson.jpg" alt=""></span>
-						<h2>I'm Tom Anderson</h2>
-						<p>I'm an undergraduate Physicist at the University of Leeds.<br />This site is where I keep all of the work I've created and links to my information.<br /><br />Feel free to look around or contact me!</p>
-						<span class="image featured"><img src="images/homepage_banner.png" alt="" /></span>
-					</header>
-				</section>
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
-				<div class="row">
-					<div class="6u 12u(narrower)">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
 
-						<section class="box special">
-							<span class="icon major fa-file-code-o accent2"></span>
-							<h3>Coding</h3>
-							<ul class="alt">
-								<li>Python - experience with SciPy, NumPy, MatPlotLib, and developing Windows executables.</li>
-								<li>PHP/HTML - experience developing websites, including this one.</li>
-							</ul>
-						</section>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/assets/img/ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/ico/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/img/ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-					</div>
-					<div class="6u 12u(narrower)">
+  </head>
 
-						<section class="box special">
-							<span class="image featured"><img src="images/pic03.jpg" alt="" /></span>
-							<h3>My Interests</h3>
-							<p>I'm always interested in discussing employment options along with any potential project my skills could be of use in. As an example here are some of the areas I am keen to work in.
-							<ul>
-                 	<li>Automotive Industry</li>
-                 	<li>Marine Industry</li>
-                 	<li>General Management</li>
-                 	<li>Engineering Roles</li>
-                 </ul>
-							<ul class="actions">
-								<li><a href="#" class="button alt">Learn More</a></li>
-							</ul>
-						</section>
+  <body data-spy="scroll" data-offset="0" data-target="#navigation">
 
-					</div>
+    <!-- Fixed navbar -->
+	    <div id="navigation" class="navbar navbar-default navbar-fixed-top">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="#"><b>Tom Anderson</b></a>
+	        </div>
+	        <div class="navbar-collapse collapse">
+	          <ul class="nav navbar-nav">
+	            <li class="active"><a href="#home" class="smothscroll">Home</a></li>
+	            <li><a href="#about" class="smothscroll">About Me</a></li>
+	            <li><a href="#contact" class="smothScroll">Contact</a></li>
+	          </ul>
+	        </div><!--/.nav-collapse -->
+	      </div>
+	    </div>
+
+
+	<section id="home" name="home"></section>
+	<div id="headerwrap">
+	    <div class="container">
+	    	<div class="row centered">
+	    		<div class="col-lg-12">
+					<img src="./assets/img/me_circle.png" style="width:20%">
+					<h1>I'm <b>Tom</b></h1>
+					<h3>This is my personal website.</h3>
+					<br>
+	    		</div>
+
+	    		<div class="col-lg-12">
+	    			<img class="img-responsive" src="assets/img/app-bg2.png" alt="">
+	    		</div>
+
+	    	</div>
+	    </div> <!--/ .container -->
+	</div><!--/ #headerwrap -->
+
+
+	<section id="about" name="about"></section>
+	<!-- INTRO WRAP -->
+	<div id="intro">
+		<div class="container">
+			<div class="row centered">
+				<h1>A Little About Me</h1>
+				<br>
+				<br>
+				<div class="col-lg-4">
+					<img src="assets/img/user.png" width="128px" alt="">
+					<h3>Me</h3>
+					<p>I'm a Physics graduate working as an IT consultant for <a href="http://www.alscient.com">Alscient</a> working with Okta, AWS and Microsoft platforms.</p>
+				</div>
+				<div class="col-lg-4">
+					<img src="assets/img/qualifications.png" width="128px" alt="">
+					<h3>Qualifications</h3>
+          <p>- MPhys in Physics from University of Leeds
+		  <br />- Okta Professional + Administrator
+          <br />- Microsoft Dynamics CRM Online Deployment
+          <br />- RYA Dinghy Instructor
+          <br /><a href="https://uk.linkedin.com/in/th0masanderson">More...</a></p>
+				</div>
+				<div class="col-lg-4">
+					<img src="assets/img/contact.png" width="128px" alt="">
+					<h3>Contact</h3>
+					<p>Please use <a href="https://uk.linkedin.com/in/th0masanderson">LinkedIn</a> for any professional enquiries.
+          <br />Any other queries, please use the contact form below to email me.</p>
+				</div>
+			</div>
+			<br>
+			<hr>
+	    </div> <!--/ .container -->
+	</div><!--/ #introwrap -->
+
+	<!-- FEATURES WRAP -->
+	<div id="features">
+		<div class="container">
+			<div class="row">
+				<h1 class="centered">What's Here?</h1>
+				<br>
+				<br>
+				<div class="col-lg-6 centered">
+					<img class="img-responsive centered" src="assets/img/browser.svg" alt="">
 				</div>
 
-			</section>
+				<div class="col-lg-6">
+					<h3>The Site</h3>
+					<br>
+				<!-- ACCORDION -->
+		            <div class="accordion ac" id="accordion2">
+		                <div class="accordion-group">
+		                    <div class="accordion-heading">
+		                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+		                        Things you can see
+		                        </a>
+		                    </div><!-- /accordion-heading -->
+		                    <div id="collapseOne" class="accordion-body collapse in">
+		                        <div class="accordion-inner">
+								<p>Currently the site only displays this page. Future work will be done to get the site a little bit more dynamic with more features, perhaps using Angular.</p>
+								</div><!-- /accordion-inner -->
+		                    </div><!-- /collapse -->
+		                </div><!-- /accordion-group -->
+		                <br>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="http://uk.linkedin.com/in/t0manderson" class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
-					<li><a href="http://github.com/driminary" class="icon fa-github"><span class="label">Github</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Thomas Anderson. All rights reserved.</li><li>Design: Thomas Anderson and <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</footer>
+		                <div class="accordion-group">
+		                    <div class="accordion-heading">
+		                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+		                        What you see it on
+		                        </a>
+		                    </div>
+		                    <div id="collapseTwo" class="accordion-body collapse">
+		                        <div class="accordion-inner">
+								<p>The site is designed on a template by <a href="http://www.blacktie.co/">BLACKTIE</a> and is based on <a href="http://getbootstrap.com">Bootstrap</a>, so the site should automatically adjust depending on what device you view it on.</p>
+								</div><!-- /accordion-inner -->
+		                    </div><!-- /collapse -->
+		                </div><!-- /accordion-group -->
+		                <br>
 
-	</body>
+		                 <div class="accordion-group">
+		                    <div class="accordion-heading">
+		                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+		                        Things you can't see
+		                        </a>
+		                    </div>
+		                    <div id="collapseThree" class="accordion-body collapse">
+		                        <div class="accordion-inner">
+								<p>Behind the scenes, the domain name hosts my personal email, a couple of AWS servers and networks and access to my files. Various things are tested on the domain so availability might be intermittent.</p>
+								</div><!-- /accordion-inner -->
+		                    </div><!-- /collapse -->
+		                </div><!-- /accordion-group -->
+		                <br>
+
+		                <br>
+					</div><!-- Accordion -->
+				</div>
+			</div>
+		</div><!--/ .container -->
+	</div><!--/ #features -->
+
+
+	<section id="showcase" name="showcase"></section>
+	<div id="showcase">
+		<div class="container">
+			<div class="col-lg-12">
+				<h1 class="centered"><b>Comments? Suggestions? Queries?</b>
+        <br />Please use the address below.</h1>
+			</div>
+			<br>
+			<br>
+			<br>
+		</div><!-- /container -->
+	</div>
+
+
+	<section id="contact" name="contact"></section>
+	<div id="footerwrap">
+		<div class="container">
+			<div class="col-lg-5">
+				<h3>Thomas Anderson</h3>
+				<p>
+				IT Consultant<br/>
+				United Kingdom<br/>
+				</p>
+			</div>
+
+			<div class="col-lg-7">
+				<h3>Send me an email</h3>
+				<br>
+        <p class="label label-large label-info"><a style="color: #fff;" href="mailto:me@thomas-anderson.net">Me@Thomas-Anderson.Net</a></p>
+			</div>
+		</div>
+	</div>
+	<div id="c">
+		<div class="container">
+			<p>Site &copy; 2016 Thomas Anderson | Original Design by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
+
+		</div>
+	</div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.js"></script>
+	<script>
+	$('.carousel').carousel({
+	  interval: 3500
+	})
+	</script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85751744-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
 </html>
