@@ -39,6 +39,16 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/assets/img/ico/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+	
+	<!-- Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-85751744-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-85751744-1');
+	</script>
 
   </head>
 
@@ -76,11 +86,6 @@
 					<h3>This is my personal website.</h3>
 					<br>
 	    		</div>
-
-	    		<div class="col-lg-12">
-	    			<img class="img-responsive" src="assets/img/app-bg2.png" alt="">
-	    		</div>
-
 	    	</div>
 	    </div> <!--/ .container -->
 	</div><!--/ #headerwrap -->
@@ -97,15 +102,14 @@
 				<div class="col-lg-4">
 					<img src="assets/img/user.png" width="128px" alt="">
 					<h3>Me</h3>
-					<p>I'm a Physics graduate working as an IT consultant for <a href="http://www.alscient.com">Alscient</a> working with Okta, AWS and Microsoft platforms.</p>
+					<p>An IT consultant for <a href="http://www.alscient.com">Alscient</a> working with AWS, Azure, Okta and Microsoft platforms.</p>
 				</div>
 				<div class="col-lg-4">
 					<img src="assets/img/qualifications.png" width="128px" alt="">
 					<h3>Qualifications</h3>
           <p>- MPhys in Physics from University of Leeds
-		  <br />- Okta Professional + Administrator
-          <br />- Microsoft Dynamics CRM Online Deployment
-          <br />- RYA Dinghy Instructor
+		  <br />- Okta Professional and Administrator
+          <br />- MS Office 365, Dynamics and SharePoint
           <br /><a href="https://uk.linkedin.com/in/th0masanderson">More...</a></p>
 				</div>
 				<div class="col-lg-4">
@@ -116,75 +120,8 @@
 				</div>
 			</div>
 			<br>
-			<hr>
 	    </div> <!--/ .container -->
 	</div><!--/ #introwrap -->
-
-	<!-- FEATURES WRAP -->
-	<div id="features">
-		<div class="container">
-			<div class="row">
-				<h1 class="centered">What's Here?</h1>
-				<br>
-				<br>
-				<div class="col-lg-6 centered">
-					<img class="img-responsive centered" src="assets/img/browser.svg" alt="">
-				</div>
-
-				<div class="col-lg-6">
-					<h3>The Site</h3>
-					<br>
-				<!-- ACCORDION -->
-		            <div class="accordion ac" id="accordion2">
-		                <div class="accordion-group">
-		                    <div class="accordion-heading">
-		                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-		                        Things you can see
-		                        </a>
-		                    </div><!-- /accordion-heading -->
-		                    <div id="collapseOne" class="accordion-body collapse in">
-		                        <div class="accordion-inner">
-								<p>Currently the site only displays this page. Future work will be done to get the site a little bit more dynamic with more features, perhaps using Angular.</p>
-								</div><!-- /accordion-inner -->
-		                    </div><!-- /collapse -->
-		                </div><!-- /accordion-group -->
-		                <br>
-
-		                <div class="accordion-group">
-		                    <div class="accordion-heading">
-		                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-		                        What you see it on
-		                        </a>
-		                    </div>
-		                    <div id="collapseTwo" class="accordion-body collapse">
-		                        <div class="accordion-inner">
-								<p>The site is designed on a template by <a href="http://www.blacktie.co/">BLACKTIE</a> and is based on <a href="http://getbootstrap.com">Bootstrap</a>, so the site should automatically adjust depending on what device you view it on.</p>
-								</div><!-- /accordion-inner -->
-		                    </div><!-- /collapse -->
-		                </div><!-- /accordion-group -->
-		                <br>
-
-		                 <div class="accordion-group">
-		                    <div class="accordion-heading">
-		                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-		                        Things you can't see
-		                        </a>
-		                    </div>
-		                    <div id="collapseThree" class="accordion-body collapse">
-		                        <div class="accordion-inner">
-								<p>Behind the scenes, the domain name hosts my personal email, a couple of AWS servers and networks and access to my files. Various things are tested on the domain so availability might be intermittent.</p>
-								</div><!-- /accordion-inner -->
-		                    </div><!-- /collapse -->
-		                </div><!-- /accordion-group -->
-		                <br>
-
-		                <br>
-					</div><!-- Accordion -->
-				</div>
-			</div>
-		</div><!--/ .container -->
-	</div><!--/ #features -->
-
 
 	<section id="showcase" name="showcase"></section>
 	<div id="showcase">
@@ -220,30 +157,10 @@
 	</div>
 	<div id="c">
 		<div class="container">
-			<p>Site &copy; 2016 Thomas Anderson | Original Design by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
-
+			<p>Site &copy; 2019 Thomas Anderson | Original Design by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
 		</div>
 	</div>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/bootstrap.js"></script>
-	<script>
-	$('.carousel').carousel({
-	  interval: 3500
-	})
-	</script>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-85751744-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+		<script src="assets/js/bootstrap.js"></script>
+		
   </body>
 </html>
