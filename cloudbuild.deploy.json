@@ -1,0 +1,16 @@
+{
+  "steps": [
+    {
+      "name": "gcr.io/$PROJECT_ID/firebase",
+      "args": [
+        "deploy",
+        "-P",
+        "$PROJECT_ID",
+        "-m",
+        "Git Build - $COMMIT_SHA",
+        "--token",
+        "$_FIREBASE_DEPLOY_TOKEN",
+      ],
+    }
+  ]
+}
